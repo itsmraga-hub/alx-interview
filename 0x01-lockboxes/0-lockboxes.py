@@ -15,6 +15,7 @@
     Return True if all boxes can be opened, else return False
 """
 
+
 def canUnlockAll(boxes):
     """
         Initialize a set to keep track of visited boxes
