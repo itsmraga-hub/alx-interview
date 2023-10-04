@@ -41,7 +41,7 @@ def isWinner(x, nums):
             if is_prime(i):
                 dp[i] = 1
 
-        return "Maria" if dp[n] == 1 else "Ben"
+        return "Ben" if dp[n] == 1 else "Maria"
 
     winners = [calculate_winner(n) for n in nums]
     maria_wins = winners.count("Maria")
