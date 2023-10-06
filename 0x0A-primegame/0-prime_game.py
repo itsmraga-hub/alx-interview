@@ -13,6 +13,10 @@ def isWinner(x, nums):
     """
         Return: name of the player that won the most rounds
     """
+
+    if ... in nums:
+        return None
+
     def is_prime(num):
         if num <= 1:
             return False
