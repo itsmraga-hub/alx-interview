@@ -14,6 +14,10 @@ def isWinner(x, nums):
         Return: name of the player that won the most rounds
     """
 
+    if x <= 0 or nums is None:
+        return None
+    if x != len(nums):
+        return None
     if ... in nums:
         return None
 
@@ -31,7 +35,7 @@ def isWinner(x, nums):
 
     def calculate_winner(n):
         """
-        Return: name of the player that won the most rounds
+            Return: name of the player that won the most rounds
         """
         if n < 2:
             return None
