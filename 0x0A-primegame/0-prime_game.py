@@ -17,6 +17,8 @@ def isWinner(x, nums):
         return None
     if x != len(nums):
         return None
+    if ... in nums:
+        return None
 
     def filter_primes(max_n):
         """
